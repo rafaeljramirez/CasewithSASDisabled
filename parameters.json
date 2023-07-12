@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "153bf828-3e1e-48f9-8e6d-7f69c8e188aa"
+        },
+        "name": {
+            "value": "facasetestrr"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "storageAccountName": {
+            "value": "sawithsasdisabled"
+        },
+        "use32BitWorkerProcess": {
+            "value": true
+        },
+        "netFrameworkVersion": {
+            "value": "v7.0"
+        },
+        "hostingPlanName": {
+            "value": "actASPEP1"
+        },
+        "serverFarmResourceGroup": {
+            "value": "0Adam56rg"
+        },
+        "alwaysOn": {
+            "value": false
+        }
+    }
+}
